@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "seed": 42,
+  "threads": 4,
+  "max_length": 256,
+  "max_new_tokens": 32,
+  "micro_batch_size": 1,
+  "gradient_accumulation": 8,
+  "epochs": 1,
+  "learning_rate": 0.0002,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "target_modules": ["q_proj", "v_proj"]
+}
+

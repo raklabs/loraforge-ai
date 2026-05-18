@@ -1,0 +1,26 @@
+# Virtual environments & caches
+.venv/
+venv/
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Model weights & local training outputs (keep out of git)
+artifacts/
+experiments/
+*.safetensors
+*.bin
+*.pt
+
+# Environment secrets
+.env
+.env.*
+
+# Build artifacts & OS
+dist/
+build/
+*.egg-info/
+.DS_Store
+
