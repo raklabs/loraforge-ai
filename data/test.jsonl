@@ -1,0 +1,40 @@
+{"id": "account-26-1", "scenario_id": "account-26", "text": "My profile is using my old surname and I need it corrected.", "category": "account"}
+{"id": "billing-26-1", "scenario_id": "billing-26", "text": "A cancelled seat still appears on this month's bill.", "category": "billing"}
+{"id": "other-26-1", "scenario_id": "other-26", "text": "Can you share a customer case study from the retail sector?", "category": "other"}
+{"id": "technical-26-1", "scenario_id": "technical-26", "text": "Sorting invoice records by date puts them in alphabetical order.", "category": "technical"}
+{"id": "account-26-2", "scenario_id": "account-26", "text": "How can I update the family name shown in my user profile?", "category": "account"}
+{"id": "billing-26-2", "scenario_id": "billing-26", "text": "Why am I paying for a seat removed before the billing period?", "category": "billing"}
+{"id": "other-26-2", "scenario_id": "other-26", "text": "I would like an example of a retailer using your product.", "category": "other"}
+{"id": "technical-26-2", "scenario_id": "technical-26", "text": "The invoice list's date-sort feature orders text rather than actual dates.", "category": "technical"}
+{"id": "account-27-1", "scenario_id": "account-27", "text": "I need to remove a former employee's access to our workspace.", "category": "account"}
+{"id": "billing-27-1", "scenario_id": "billing-27", "text": "Our credit balance was not used to pay the renewal.", "category": "billing"}
+{"id": "other-27-1", "scenario_id": "other-27", "text": "Does your team host webinars about best practices?", "category": "other"}
+{"id": "technical-27-1", "scenario_id": "technical-27", "text": "The print preview is blank for a document with content.", "category": "technical"}
+{"id": "account-27-2", "scenario_id": "account-27", "text": "How do I revoke workspace membership for someone who left the company?", "category": "account"}
+{"id": "billing-27-2", "scenario_id": "billing-27", "text": "You charged my card instead of applying the credit on our billing account.", "category": "billing"}
+{"id": "other-27-2", "scenario_id": "other-27", "text": "Where can I register for a session on effective product use?", "category": "other"}
+{"id": "technical-27-2", "scenario_id": "technical-27", "text": "Printing an existing document shows only an empty preview page.", "category": "technical"}
+{"id": "account-28-1", "scenario_id": "account-28", "text": "I deactivated my account last week and want to reactivate it.", "category": "account"}
+{"id": "billing-28-1", "scenario_id": "billing-28", "text": "Please combine the two department invoices into one bill.", "category": "billing"}
+{"id": "other-28-1", "scenario_id": "other-28", "text": "I would like to translate your help articles as a volunteer.", "category": "other"}
+{"id": "technical-28-1", "scenario_id": "technical-28", "text": "The video player stops whenever I seek backwards.", "category": "technical"}
+{"id": "account-28-2", "scenario_id": "account-28", "text": "Can my previously disabled user profile be restored?", "category": "account"}
+{"id": "billing-28-2", "scenario_id": "billing-28", "text": "Can finance receive a single invoice covering both departments?", "category": "billing"}
+{"id": "other-28-2", "scenario_id": "other-28", "text": "Is there a community program for contributing documentation translations?", "category": "other"}
+{"id": "technical-28-2", "scenario_id": "technical-28", "text": "Rewinding a video causes playback to freeze.", "category": "technical"}
+{"id": "account-29-1", "scenario_id": "account-29", "text": "Our administrator left and nobody can manage user access.", "category": "account"}
+{"id": "billing-29-1", "scenario_id": "billing-29", "text": "The refund amount is smaller than the approved amount.", "category": "billing"}
+{"id": "other-29-1", "scenario_id": "other-29", "text": "Please contact me about a university research collaboration.", "category": "other"}
+{"id": "technical-29-1", "scenario_id": "technical-29", "text": "Deleted records reappear after refreshing the page.", "category": "technical"}
+{"id": "account-29-2", "scenario_id": "account-29", "text": "We need help recovering administrator ownership of our organization account.", "category": "account"}
+{"id": "billing-29-2", "scenario_id": "billing-29", "text": "Only part of the agreed refund was returned to my card.", "category": "billing"}
+{"id": "other-29-2", "scenario_id": "other-29", "text": "Our research group wants to explore a partnership with your company.", "category": "other"}
+{"id": "technical-29-2", "scenario_id": "technical-29", "text": "Refreshing restores items that the interface said were successfully deleted.", "category": "technical"}
+{"id": "account-30-1", "scenario_id": "account-30", "text": "I accepted an invitation using the wrong personal email.", "category": "account"}
+{"id": "billing-30-1", "scenario_id": "billing-30", "text": "The introductory rate expired sooner than the offer said.", "category": "billing"}
+{"id": "other-30-1", "scenario_id": "other-30", "text": "I have a question but will send the details later.", "category": "other"}
+{"id": "technical-30-1", "scenario_id": "technical-30", "text": "The app consumes all available memory during a data import.", "category": "technical"}
+{"id": "account-30-2", "scenario_id": "account-30", "text": "How do I move my workspace membership to the correct email identity?", "category": "account"}
+{"id": "billing-30-2", "scenario_id": "billing-30", "text": "My bill switched to full price before the promotional period ended.", "category": "billing"}
+{"id": "other-30-2", "scenario_id": "other-30", "text": "I will describe what I need in my next message.", "category": "other"}
+{"id": "technical-30-2", "scenario_id": "technical-30", "text": "Importing a dataset makes application memory usage grow until it crashes.", "category": "technical"}

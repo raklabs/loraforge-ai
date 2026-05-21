@@ -1,0 +1,160 @@
+{"id": "account-01-1", "scenario_id": "account-01", "text": "I forgot my password and cannot sign in.", "category": "account"}
+{"id": "billing-01-1", "scenario_id": "billing-01", "text": "My card was charged twice for the monthly plan.", "category": "billing"}
+{"id": "other-01-1", "scenario_id": "other-01", "text": "Hello there.", "category": "other"}
+{"id": "technical-01-1", "scenario_id": "technical-01", "text": "The dashboard displays a server error when I open it.", "category": "technical"}
+{"id": "account-01-2", "scenario_id": "account-01", "text": "How can I reset a password I no longer remember?", "category": "account"}
+{"id": "billing-01-2", "scenario_id": "billing-01", "text": "I see two subscription payments for this month instead of one.", "category": "billing"}
+{"id": "other-01-2", "scenario_id": "other-01", "text": "Hi, support team.", "category": "other"}
+{"id": "technical-01-2", "scenario_id": "technical-01", "text": "Opening the dashboard gives me an HTTP 500 error.", "category": "technical"}
+{"id": "account-02-1", "scenario_id": "account-02", "text": "The password reset email never arrives.", "category": "account"}
+{"id": "billing-02-1", "scenario_id": "billing-02", "text": "Please send me a receipt for yesterday's payment.", "category": "billing"}
+{"id": "other-02-1", "scenario_id": "other-02", "text": "Can you help me?", "category": "other"}
+{"id": "technical-02-1", "scenario_id": "technical-02", "text": "Exporting a CSV produces an empty file despite visible rows.", "category": "technical"}
+{"id": "account-02-2", "scenario_id": "account-02", "text": "I requested a reset link but my inbox is empty.", "category": "account"}
+{"id": "billing-02-2", "scenario_id": "billing-02", "text": "Where can I download proof of the payment I made yesterday?", "category": "billing"}
+{"id": "other-02-2", "scenario_id": "other-02", "text": "I need assistance but have not described the problem yet.", "category": "other"}
+{"id": "technical-02-2", "scenario_id": "technical-02", "text": "The CSV export has no data even though the table has records.", "category": "technical"}
+{"id": "account-03-1", "scenario_id": "account-03", "text": "My login says the account is locked after repeated attempts.", "category": "account"}
+{"id": "billing-03-1", "scenario_id": "billing-03", "text": "The annual subscription price on my bill is wrong.", "category": "billing"}
+{"id": "other-03-1", "scenario_id": "other-03", "text": "Thank you for your help yesterday.", "category": "other"}
+{"id": "technical-03-1", "scenario_id": "technical-03", "text": "The mobile app crashes when I attach a photo.", "category": "technical"}
+{"id": "account-03-2", "scenario_id": "account-03", "text": "Too many failed sign-ins have locked me out of my account.", "category": "account"}
+{"id": "billing-03-2", "scenario_id": "billing-03", "text": "My yearly plan invoice lists a different price from checkout.", "category": "billing"}
+{"id": "other-03-2", "scenario_id": "other-03", "text": "I appreciate the support you provided recently.", "category": "other"}
+{"id": "technical-03-2", "scenario_id": "technical-03", "text": "Adding a picture makes the phone application close unexpectedly.", "category": "technical"}
+{"id": "account-04-1", "scenario_id": "account-04", "text": "I lost the phone used for two-factor authentication.", "category": "account"}
+{"id": "billing-04-1", "scenario_id": "billing-04", "text": "Can I get a refund for an accidental purchase?", "category": "billing"}
+{"id": "other-04-1", "scenario_id": "other-04", "text": "What are your customer service opening hours?", "category": "other"}
+{"id": "technical-04-1", "scenario_id": "technical-04", "text": "Search returns no results for records I can see in the list.", "category": "technical"}
+{"id": "account-04-2", "scenario_id": "account-04", "text": "How can I regain access without my authentication phone?", "category": "account"}
+{"id": "billing-04-2", "scenario_id": "billing-04", "text": "I bought a plan by mistake and want my payment returned.", "category": "billing"}
+{"id": "other-04-2", "scenario_id": "other-04", "text": "When is the support team available?", "category": "other"}
+{"id": "technical-04-2", "scenario_id": "technical-04", "text": "Existing items cannot be found using the search box.", "category": "technical"}
+{"id": "account-05-1", "scenario_id": "account-05", "text": "Please change the email address on my profile.", "category": "account"}
+{"id": "billing-05-1", "scenario_id": "billing-05", "text": "My discount code was accepted but the invoice has no discount.", "category": "billing"}
+{"id": "other-05-1", "scenario_id": "other-05", "text": "Do you offer training sessions for new customers?", "category": "other"}
+{"id": "technical-05-1", "scenario_id": "technical-05", "text": "The chart totals do not match the numbers in the table.", "category": "technical"}
+{"id": "account-05-2", "scenario_id": "account-05", "text": "I need to update my account's primary email.", "category": "account"}
+{"id": "billing-05-2", "scenario_id": "billing-05", "text": "The promotion disappeared from the amount I was billed.", "category": "billing"}
+{"id": "other-05-2", "scenario_id": "other-05", "text": "Can beginners attend a product onboarding workshop?", "category": "other"}
+{"id": "technical-05-2", "scenario_id": "technical-05", "text": "The graph shows different values from its underlying data rows.", "category": "technical"}
+{"id": "account-06-1", "scenario_id": "account-06", "text": "I want to replace the display name on my profile.", "category": "account"}
+{"id": "billing-06-1", "scenario_id": "billing-06", "text": "Why is sales tax missing from my invoice?", "category": "billing"}
+{"id": "other-06-1", "scenario_id": "other-06", "text": "Where can I read your privacy policy?", "category": "other"}
+{"id": "technical-06-1", "scenario_id": "technical-06", "text": "The save button does nothing after I edit a document.", "category": "technical"}
+{"id": "account-06-2", "scenario_id": "account-06", "text": "Where do I edit the name shown on my account?", "category": "account"}
+{"id": "billing-06-2", "scenario_id": "billing-06", "text": "My invoice does not show a tax line; can you correct it?", "category": "billing"}
+{"id": "other-06-2", "scenario_id": "other-06", "text": "Please share the page explaining your data privacy policy.", "category": "other"}
+{"id": "technical-06-2", "scenario_id": "technical-06", "text": "My document changes are lost because clicking Save has no effect.", "category": "technical"}
+{"id": "account-07-1", "scenario_id": "account-07", "text": "My verification link has expired.", "category": "account"}
+{"id": "billing-07-1", "scenario_id": "billing-07", "text": "I cancelled last month but another renewal was charged.", "category": "billing"}
+{"id": "other-07-1", "scenario_id": "other-07", "text": "Are you hiring software engineers?", "category": "other"}
+{"id": "technical-07-1", "scenario_id": "technical-07", "text": "File uploads stop at fifty percent.", "category": "technical"}
+{"id": "account-07-2", "scenario_id": "account-07", "text": "Can I get a new link to verify my account email?", "category": "account"}
+{"id": "billing-07-2", "scenario_id": "billing-07", "text": "A subscription payment went through after I cancelled.", "category": "billing"}
+{"id": "other-07-2", "scenario_id": "other-07", "text": "Where can I find engineering job openings at your company?", "category": "other"}
+{"id": "technical-07-2", "scenario_id": "technical-07", "text": "Every attachment upload gets stuck halfway through.", "category": "technical"}
+{"id": "account-08-1", "scenario_id": "account-08", "text": "I would like to permanently delete my account.", "category": "account"}
+{"id": "billing-08-1", "scenario_id": "billing-08", "text": "Can I change the credit card used for future charges?", "category": "billing"}
+{"id": "other-08-1", "scenario_id": "other-08", "text": "Can our company become a reseller?", "category": "other"}
+{"id": "technical-08-1", "scenario_id": "technical-08", "text": "The report takes several minutes to load.", "category": "technical"}
+{"id": "account-08-2", "scenario_id": "account-08", "text": "How do I close my profile and remove my account?", "category": "account"}
+{"id": "billing-08-2", "scenario_id": "billing-08", "text": "I need to replace my payment card before the next renewal.", "category": "billing"}
+{"id": "other-08-2", "scenario_id": "other-08", "text": "I would like information about your reseller partnership program.", "category": "other"}
+{"id": "technical-08-2", "scenario_id": "technical-08", "text": "Loading a report is much slower than it used to be.", "category": "technical"}
+{"id": "account-09-1", "scenario_id": "account-09", "text": "I cannot remember which email I registered with.", "category": "account"}
+{"id": "billing-09-1", "scenario_id": "billing-09", "text": "The payment was declined even though my card has funds.", "category": "billing"}
+{"id": "other-09-1", "scenario_id": "other-09", "text": "Do you have a public product roadmap?", "category": "other"}
+{"id": "technical-09-1", "scenario_id": "technical-09", "text": "The dark theme makes the toolbar text unreadable.", "category": "technical"}
+{"id": "account-09-2", "scenario_id": "account-09", "text": "Can you help identify the email associated with my login?", "category": "account"}
+{"id": "billing-09-2", "scenario_id": "billing-09", "text": "My subscription charge failed despite sufficient card balance.", "category": "billing"}
+{"id": "other-09-2", "scenario_id": "other-09", "text": "Where can I see your planned future features?", "category": "other"}
+{"id": "technical-09-2", "scenario_id": "technical-09", "text": "Toolbar labels blend into the background in dark mode.", "category": "technical"}
+{"id": "account-10-1", "scenario_id": "account-10", "text": "My account was suspended and I need access restored.", "category": "account"}
+{"id": "billing-10-1", "scenario_id": "billing-10", "text": "I need the company address corrected on an invoice.", "category": "billing"}
+{"id": "other-10-1", "scenario_id": "other-10", "text": "Please add a feature that translates documents into Welsh.", "category": "other"}
+{"id": "technical-10-1", "scenario_id": "technical-10", "text": "Scheduled exports are not running at the configured time.", "category": "technical"}
+{"id": "account-10-2", "scenario_id": "account-10", "text": "How do I appeal a suspension preventing me from signing in?", "category": "account"}
+{"id": "billing-10-2", "scenario_id": "billing-10", "text": "Please reissue my bill with our updated business address.", "category": "billing"}
+{"id": "other-10-2", "scenario_id": "other-10", "text": "I would like Welsh translation support in a future release.", "category": "other"}
+{"id": "technical-10-2", "scenario_id": "technical-10", "text": "The automatic export job fails to start on schedule.", "category": "technical"}
+{"id": "account-11-1", "scenario_id": "account-11", "text": "How can I add a recovery email to my login?", "category": "account"}
+{"id": "billing-11-1", "scenario_id": "billing-11", "text": "Can we pay the subscription by bank transfer?", "category": "billing"}
+{"id": "other-11-1", "scenario_id": "other-11", "text": "Is there a community forum for users?", "category": "other"}
+{"id": "technical-11-1", "scenario_id": "technical-11", "text": "The API returns an internal error for a valid request.", "category": "technical"}
+{"id": "account-11-2", "scenario_id": "account-11", "text": "I want to configure a backup email for account recovery.", "category": "account"}
+{"id": "billing-11-2", "scenario_id": "billing-11", "text": "Is a wire transfer accepted to settle our subscription bill?", "category": "billing"}
+{"id": "other-11-2", "scenario_id": "other-11", "text": "Where can I meet other customers online?", "category": "other"}
+{"id": "technical-11-2", "scenario_id": "technical-11", "text": "A correctly formed API call responds with a server failure.", "category": "technical"}
+{"id": "account-12-1", "scenario_id": "account-12", "text": "Someone else changed my account password.", "category": "account"}
+{"id": "billing-12-1", "scenario_id": "billing-12", "text": "I paid for five seats but was invoiced for eight.", "category": "billing"}
+{"id": "other-12-1", "scenario_id": "other-12", "text": "May I interview someone from your company for an article?", "category": "other"}
+{"id": "technical-12-1", "scenario_id": "technical-12", "text": "The calendar shows events one hour later than they should be.", "category": "technical"}
+{"id": "account-12-2", "scenario_id": "account-12", "text": "I think an intruder replaced my sign-in credentials.", "category": "account"}
+{"id": "billing-12-2", "scenario_id": "billing-12", "text": "The billed seat quantity is higher than the five seats purchased.", "category": "billing"}
+{"id": "other-12-2", "scenario_id": "other-12", "text": "I am a journalist requesting an interview with your team.", "category": "other"}
+{"id": "technical-12-2", "scenario_id": "technical-12", "text": "All calendar entries are shifted forward by sixty minutes.", "category": "technical"}
+{"id": "account-13-1", "scenario_id": "account-13", "text": "I need to sign out my account on a lost laptop.", "category": "account"}
+{"id": "billing-13-1", "scenario_id": "billing-13", "text": "A refund was promised but has not reached my bank.", "category": "billing"}
+{"id": "other-13-1", "scenario_id": "other-13", "text": "Where is your company headquarters?", "category": "other"}
+{"id": "technical-13-1", "scenario_id": "technical-13", "text": "Dragging a task to another column duplicates it.", "category": "technical"}
+{"id": "account-13-2", "scenario_id": "account-13", "text": "How can I revoke the login session on a missing computer?", "category": "account"}
+{"id": "billing-13-2", "scenario_id": "billing-13", "text": "When will the money from my approved refund arrive?", "category": "billing"}
+{"id": "other-13-2", "scenario_id": "other-13", "text": "What city is your main office located in?", "category": "other"}
+{"id": "technical-13-2", "scenario_id": "technical-13", "text": "Moving a card on the board creates an extra copy.", "category": "technical"}
+{"id": "account-14-1", "scenario_id": "account-14", "text": "My invitation to join the company account has expired.", "category": "account"}
+{"id": "billing-14-1", "scenario_id": "billing-14", "text": "The trial ended and I did not expect a subscription charge.", "category": "billing"}
+{"id": "other-14-1", "scenario_id": "other-14", "text": "Can you sponsor our student hackathon?", "category": "other"}
+{"id": "technical-14-1", "scenario_id": "technical-14", "text": "Notifications keep arriving for events I have already read.", "category": "technical"}
+{"id": "account-14-2", "scenario_id": "account-14", "text": "Can you resend my expired workspace membership invitation?", "category": "account"}
+{"id": "billing-14-2", "scenario_id": "billing-14", "text": "Why did you take a payment after my free trial?", "category": "billing"}
+{"id": "other-14-2", "scenario_id": "other-14", "text": "We are looking for corporate sponsorship for a coding event.", "category": "other"}
+{"id": "technical-14-2", "scenario_id": "technical-14", "text": "Read alerts repeatedly appear as new notifications.", "category": "technical"}
+{"id": "account-15-1", "scenario_id": "account-15", "text": "I accidentally created two profiles and want to merge them.", "category": "account"}
+{"id": "billing-15-1", "scenario_id": "billing-15", "text": "Please explain the prorated amount after my upgrade.", "category": "billing"}
+{"id": "other-15-1", "scenario_id": "other-15", "text": "Do you have documentation in Spanish?", "category": "other"}
+{"id": "technical-15-1", "scenario_id": "technical-15", "text": "The desktop app freezes when I open a large spreadsheet.", "category": "technical"}
+{"id": "account-15-2", "scenario_id": "account-15", "text": "Can duplicate user accounts be combined into one login?", "category": "account"}
+{"id": "billing-15-2", "scenario_id": "billing-15", "text": "How was the partial-month upgrade charge calculated?", "category": "billing"}
+{"id": "other-15-2", "scenario_id": "other-15", "text": "Where can I find a Spanish-language user guide?", "category": "other"}
+{"id": "technical-15-2", "scenario_id": "technical-15", "text": "Opening a big sheet causes the desktop client to hang.", "category": "technical"}
+{"id": "account-16-1", "scenario_id": "account-16", "text": "How do I turn on two-factor authentication for my login?", "category": "account"}
+{"id": "billing-16-1", "scenario_id": "billing-16", "text": "My invoice currency is euros but I expected pounds.", "category": "billing"}
+{"id": "other-16-1", "scenario_id": "other-16", "text": "I would like to arrange a product demonstration.", "category": "other"}
+{"id": "technical-16-1", "scenario_id": "technical-16", "text": "The PDF export cuts off the right side of the page.", "category": "technical"}
+{"id": "account-16-2", "scenario_id": "account-16", "text": "I want an extra verification step when I sign in.", "category": "account"}
+{"id": "billing-16-2", "scenario_id": "billing-16", "text": "Could you explain why my bill is in EUR rather than GBP?", "category": "billing"}
+{"id": "other-16-2", "scenario_id": "other-16", "text": "Can your sales team show our company the product?", "category": "other"}
+{"id": "technical-16-2", "scenario_id": "technical-16", "text": "Exported PDF documents are missing their rightmost columns.", "category": "technical"}
+{"id": "account-17-1", "scenario_id": "account-17", "text": "I changed my phone number and need to update my profile.", "category": "account"}
+{"id": "billing-17-1", "scenario_id": "billing-17", "text": "Where can I find my outstanding invoices?", "category": "billing"}
+{"id": "other-17-1", "scenario_id": "other-17", "text": "How can I submit general feedback?", "category": "other"}
+{"id": "technical-17-1", "scenario_id": "technical-17", "text": "My edits do not sync between the browser and the app.", "category": "technical"}
+{"id": "account-17-2", "scenario_id": "account-17", "text": "Where can I replace the contact phone stored on my account?", "category": "account"}
+{"id": "billing-17-2", "scenario_id": "billing-17", "text": "I need a list of bills that still need payment.", "category": "billing"}
+{"id": "other-17-2", "scenario_id": "other-17", "text": "Where should I send suggestions about your service?", "category": "other"}
+{"id": "technical-17-2", "scenario_id": "technical-17", "text": "Changes on the web never appear in the mobile client.", "category": "technical"}
+{"id": "account-18-1", "scenario_id": "account-18", "text": "I am leaving the company and need to transfer account ownership.", "category": "account"}
+{"id": "billing-18-1", "scenario_id": "billing-18", "text": "Our finance team needs a purchase order number on the bill.", "category": "billing"}
+{"id": "other-18-1", "scenario_id": "other-18", "text": "Do you publish a newsletter?", "category": "other"}
+{"id": "technical-18-1", "scenario_id": "technical-18", "text": "The filter ignores the date range I select.", "category": "technical"}
+{"id": "account-18-2", "scenario_id": "account-18", "text": "How do I give another administrator ownership of our account?", "category": "account"}
+{"id": "billing-18-2", "scenario_id": "billing-18", "text": "Please add our PO reference to the invoice.", "category": "billing"}
+{"id": "other-18-2", "scenario_id": "other-18", "text": "How can I subscribe to company news by email?", "category": "other"}
+{"id": "technical-18-2", "scenario_id": "technical-18", "text": "Results include dates outside the configured filter window.", "category": "technical"}
+{"id": "account-19-1", "scenario_id": "account-19", "text": "The login page says no user exists for my email.", "category": "account"}
+{"id": "billing-19-1", "scenario_id": "billing-19", "text": "I want to switch from monthly to annual billing.", "category": "billing"}
+{"id": "other-19-1", "scenario_id": "other-19", "text": "I sent this message to the wrong company.", "category": "other"}
+{"id": "technical-19-1", "scenario_id": "technical-19", "text": "Audio recordings play with no sound in the built-in player.", "category": "technical"}
+{"id": "account-19-2", "scenario_id": "account-19", "text": "My registered address is not recognized when I try to sign in.", "category": "account"}
+{"id": "billing-19-2", "scenario_id": "billing-19", "text": "How do I change my subscription payment frequency to yearly?", "category": "billing"}
+{"id": "other-19-2", "scenario_id": "other-19", "text": "Sorry, this request was intended for another business.", "category": "other"}
+{"id": "technical-19-2", "scenario_id": "technical-19", "text": "The application's recording player is silent for valid audio files.", "category": "technical"}
+{"id": "account-20-1", "scenario_id": "account-20", "text": "I want to change the password while I still know the old one.", "category": "account"}
+{"id": "billing-20-1", "scenario_id": "billing-20", "text": "What date will my next subscription payment be taken?", "category": "billing"}
+{"id": "other-20-1", "scenario_id": "other-20", "text": "Can I download your brand logo for an event slide?", "category": "other"}
+{"id": "technical-20-1", "scenario_id": "technical-20", "text": "Clicking a help link inside the app opens a missing page.", "category": "technical"}
+{"id": "account-20-2", "scenario_id": "account-20", "text": "Where do I update my current sign-in password?", "category": "account"}
+{"id": "billing-20-2", "scenario_id": "billing-20", "text": "When does the next charge for my plan fall due?", "category": "billing"}
+{"id": "other-20-2", "scenario_id": "other-20", "text": "Where are your approved logos and brand assets?", "category": "other"}
+{"id": "technical-20-2", "scenario_id": "technical-20", "text": "An in-app documentation link leads to a 404 page.", "category": "technical"}

@@ -1,0 +1,40 @@
+{"id": "account-21-1", "scenario_id": "account-21", "text": "My recovery codes were lost and I cannot complete login.", "category": "account"}
+{"id": "billing-21-1", "scenario_id": "billing-21", "text": "The same renewal was paid by both transfer and card.", "category": "billing"}
+{"id": "other-21-1", "scenario_id": "other-21", "text": "Will your team attend the education conference this year?", "category": "other"}
+{"id": "technical-21-1", "scenario_id": "technical-21", "text": "The progress bar stays at zero after a batch job completes.", "category": "technical"}
+{"id": "account-21-2", "scenario_id": "account-21", "text": "I need access restored because I no longer have my backup authentication codes.", "category": "account"}
+{"id": "billing-21-2", "scenario_id": "billing-21", "text": "We settled a renewal by bank transfer and were also charged by card.", "category": "billing"}
+{"id": "other-21-2", "scenario_id": "other-21", "text": "Are you exhibiting at the upcoming education industry event?", "category": "other"}
+{"id": "technical-21-2", "scenario_id": "technical-21", "text": "Completed batch tasks still show no progress in the interface.", "category": "technical"}
+{"id": "account-22-1", "scenario_id": "account-22", "text": "An unfamiliar device is listed in my active login sessions.", "category": "account"}
+{"id": "billing-22-1", "scenario_id": "billing-22", "text": "I was billed for storage I did not purchase.", "category": "billing"}
+{"id": "other-22-1", "scenario_id": "other-22", "text": "Do you provide accessibility conformance documentation?", "category": "other"}
+{"id": "technical-22-1", "scenario_id": "technical-22", "text": "A webhook sends the same event dozens of times.", "category": "technical"}
+{"id": "account-22-2", "scenario_id": "account-22", "text": "Can you help remove an unknown device signed into my account?", "category": "account"}
+{"id": "billing-22-2", "scenario_id": "billing-22", "text": "There is an unexplained storage add-on charge on my invoice.", "category": "billing"}
+{"id": "other-22-2", "scenario_id": "other-22", "text": "Where can I obtain a statement about product accessibility standards?", "category": "other"}
+{"id": "technical-22-2", "scenario_id": "technical-22", "text": "Our integration receives repeated copies of a single webhook event.", "category": "technical"}
+{"id": "account-23-1", "scenario_id": "account-23", "text": "My organization requires single sign-on; how do I link my login?", "category": "account"}
+{"id": "billing-23-1", "scenario_id": "billing-23", "text": "Can you divide this invoice into two instalments?", "category": "billing"}
+{"id": "other-23-1", "scenario_id": "other-23", "text": "Could you add support for right-to-left document layouts?", "category": "other"}
+{"id": "technical-23-1", "scenario_id": "technical-23", "text": "The map pins appear on the wrong continent.", "category": "technical"}
+{"id": "account-23-2", "scenario_id": "account-23", "text": "I need to connect my existing user account to our company SSO identity.", "category": "account"}
+{"id": "billing-23-2", "scenario_id": "billing-23", "text": "Is it possible to pay the bill in two parts?", "category": "billing"}
+{"id": "other-23-2", "scenario_id": "other-23", "text": "Please consider a future feature for right-to-left page design.", "category": "other"}
+{"id": "technical-23-2", "scenario_id": "technical-23", "text": "Location markers are plotted far away from the saved coordinates.", "category": "technical"}
+{"id": "account-24-1", "scenario_id": "account-24", "text": "I no longer receive the SMS code needed to sign in.", "category": "account"}
+{"id": "billing-24-1", "scenario_id": "billing-24", "text": "Our nonprofit exemption was not reflected in the tax charged.", "category": "billing"}
+{"id": "other-24-1", "scenario_id": "other-24", "text": "What is your company's environmental policy?", "category": "other"}
+{"id": "technical-24-1", "scenario_id": "technical-24", "text": "The editor removes line breaks when I paste formatted text.", "category": "technical"}
+{"id": "account-24-2", "scenario_id": "account-24", "text": "Login verification messages are not reaching my phone.", "category": "account"}
+{"id": "billing-24-2", "scenario_id": "billing-24", "text": "The bill includes tax despite our approved nonprofit exemption.", "category": "billing"}
+{"id": "other-24-2", "scenario_id": "other-24", "text": "Where can I read about your sustainability commitments?", "category": "other"}
+{"id": "technical-24-2", "scenario_id": "technical-24", "text": "Pasted paragraphs are flattened into one line by the editor.", "category": "technical"}
+{"id": "account-25-1", "scenario_id": "account-25", "text": "I removed my authenticator by accident and cannot access my profile.", "category": "account"}
+{"id": "billing-25-1", "scenario_id": "billing-25", "text": "A late payment fee appeared although I paid on time.", "category": "billing"}
+{"id": "other-25-1", "scenario_id": "other-25", "text": "I am a supplier offering office furniture.", "category": "other"}
+{"id": "technical-25-1", "scenario_id": "technical-25", "text": "Report emails contain broken images.", "category": "technical"}
+{"id": "account-25-2", "scenario_id": "account-25", "text": "My authentication app entry was deleted and now sign-in is blocked.", "category": "account"}
+{"id": "billing-25-2", "scenario_id": "billing-25", "text": "Please investigate a late fee on an invoice settled before its due date.", "category": "billing"}
+{"id": "other-25-2", "scenario_id": "other-25", "text": "Who handles purchasing desks and chairs for your offices?", "category": "other"}
+{"id": "technical-25-2", "scenario_id": "technical-25", "text": "Images embedded in the automatically emailed reports do not load.", "category": "technical"}
