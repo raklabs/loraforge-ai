@@ -1,0 +1,42 @@
+name: Bug Report
+description: Report a reproducible defect in LoraForge AI training, loss masking, merge verification, or FastAPI serving.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - raklabs
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve **LoraForge AI**. For security vulnerabilities, please use [Private Vulnerability Reporting](https://github.com/raklabs/loraforge-ai/security/advisories/new) instead of opening a public issue.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Defect Summary
+      description: A concise description of the bug and which specification (`specs/*.md`) or module (`loraforge/*`) is affected.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: Exact command, config, or test case that reproduces the issue.
+      placeholder: |
+        1. Run `python scripts/poc.py validate`
+        2. Run `pytest -v`
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. Actual Behavior
+      description: What should happen according to `CONSTITUTION.md` / `specs/001-reproducible-lora-sft.md` vs. what actually occurred.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Python, PyTorch & OS Environment
+      placeholder: "Python 3.11 / torch 2.2.2 / macOS or Ubuntu"
+    validations:
+      required: true

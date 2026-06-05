@@ -1,0 +1,40 @@
+version: 2
+updates:
+  # Maintain GitHub Actions workflow dependencies (supply-chain security)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 0
+    reviewers:
+      - "raklabs"
+    assignees:
+      - "raklabs"
+    labels:
+      - "dependencies"
+      - "security"
+
+  # Maintain Python microservice dependencies while preserving frozen ML reproducibility pins (CONSTITUTION.md §3)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 0
+    reviewers:
+      - "raklabs"
+    assignees:
+      - "raklabs"
+    labels:
+      - "dependencies"
+      - "python"
+    ignore:
+      - dependency-name: "torch"
+      - dependency-name: "numpy"
+      - dependency-name: "transformers"
+      - dependency-name: "tokenizers"
+      - dependency-name: "peft"
+      - dependency-name: "accelerate"
+      - dependency-name: "huggingface-hub"
+      - dependency-name: "safetensors"

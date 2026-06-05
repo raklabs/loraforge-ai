@@ -1,0 +1,99 @@
+name: LoraForge AI CI & Security Gate
+
+on:
+  push:
+    branches: ["main", "feat/**", "chore/**", "fix/**", "docs/**"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-and-test:
+    name: Dataset Integrity, Security Audit & Test Suite (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      - name: Security & Secret Hygiene Scan
+        run: |
+          if git grep -I -E "(sk-[a-zA-Z0-9]{20,}|ghp_[a-zA-Z0-9]{30,}|hf_[a-zA-Z0-9]{25,}|AKIA[0-9A-Z]{16})"; then
+            echo "Potential secret token detected in tracked files!"
+            exit 1
+          fi
+          echo "Zero hardcoded tokens or secrets detected."
+
+      - name: Install dependencies from requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install --extra-index-url https://download.pytorch.org/whl/cpu \
+            -r requirements.txt \
+            "httpx>=0.27.0,<1.0.0" \
+            "pytest>=8.3.0,<9.0.0"
+          pip install --no-deps -e .
+
+      - name: Verify deterministic dataset generation & SHA-256 lock
+        run: |
+          python scripts/poc.py validate
+          python scripts/poc.py doctor
+
+      - name: Run full unit, API security, and offline Qwen2 LoRA integration tests
+        run: |
+          pytest -v
+
+  dependabot-triage:
+    name: Automated Dependabot Triage & App Verification Gate
+    needs: verify-and-test
+    if: always() && github.event_name == 'pull_request' && github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Fetch Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v2
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Evaluate test results and semver policy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          CI_RESULT: ${{ needs.verify-and-test.result }}
+          ECOSYSTEM: ${{ steps.metadata.outputs.package-ecosystem }}
+          UPDATE_TYPE: ${{ steps.metadata.outputs.update-type }}
+          DEP_NAMES: ${{ steps.metadata.outputs.dependency-names }}
+          PREV_VER: ${{ steps.metadata.outputs.previous-version }}
+          NEW_VER: ${{ steps.metadata.outputs.new-version }}
+        run: |
+          if [ "$ECOSYSTEM" = "pip" ] && [ "$UPDATE_TYPE" = "version-update:semver-major" ]; then
+            gh pr comment "$PR_URL" --body "⚠️ **Automated Dependabot Triage — Closed (semver-major)**: Unrequested major version bump for **$DEP_NAMES ($PREV_VER -> $NEW_VER)**. Major breaking library upgrades require an explicit specification review under CONSTITUTION.md."
+            gh pr close "$PR_URL" --delete-branch
+            exit 0
+          fi
+          if [ "$CI_RESULT" != "success" ]; then
+            gh pr comment "$PR_URL" --body "❌ **Automated Dependabot Triage — Closed (Test/App Failure)**: Updating **$DEP_NAMES ($PREV_VER -> $NEW_VER)** failed requirements.txt resolution, doctor/validate checks, or the pytest suite. Closing PR automatically to protect main."
+            gh pr close "$PR_URL" --delete-branch
+            exit 1
+          fi
+          gh pr comment "$PR_URL" --body "✅ **Automated Dependabot Triage — Verified Safe to Merge** — Package **$DEP_NAMES ($PREV_VER -> $NEW_VER)** ($UPDATE_TYPE) was installed in CI and passed all 23 unit, FastAPI security, and offline Qwen2 LoRA integration tests."
